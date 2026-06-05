@@ -74,9 +74,22 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    # Sprites
+    - assets/sprites/characters/
+    - assets/sprites/animals/
+    - assets/sprites/buildings/
+    - assets/sprites/tiles/
+    - assets/sprites/ui/icons/
+    - assets/sprites/ui/buttons/
+    # Fonts (varsa)
+    # - assets/fonts/
+
+  # fonts:
+  #   - family: GameFont
+  #     fonts:
+  #       - asset: assets/fonts/GameFont-Bold.ttf
+  #         weight: 700
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
